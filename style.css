@@ -10,7 +10,11 @@ body {
     overflow: clip;
     font-family: 'Inter', sans-serif;
 }
-
+#resume{
+    color: #fefefe;
+    border-radius:3px;
+    items-align: right;
+}
 #para {
     color: #fefefe;
     font-size: 25px;

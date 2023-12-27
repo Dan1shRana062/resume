@@ -10,10 +10,19 @@ body {
     overflow: clip;
     font-family: 'Inter', sans-serif;
 }
-#resume{
-    color: #fefefe;
-    border-radius:3px;
-    items-align: right;
+
+#resume button{
+    height:auto ;
+    width: auto;
+    border-radius:9px;
+    color: #efefef;
+    background-color: black;
+    position: absolute;
+    font-size: 24px;
+    display: absolute;
+    margin-left:87rem;
+    margin-top: 2rem;
+    place-items: right;
 }
 #para {
     color: #fefefe;
@@ -269,4 +278,10 @@ div#highlightsPage div#columns div ul li{
 }
 #socials span  {
     margin:4px;
+}
+
+
+#resume button:hover{
+    color: black;
+    background-color: #efefef;
 }
